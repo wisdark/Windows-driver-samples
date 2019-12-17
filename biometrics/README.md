@@ -8,25 +8,16 @@ products:
 - windows-wdk
 ---
 
-<!---
-    name: Windows Biometric Driver Samples (UMDF Version 1)
-    platform: UMDF1
-    language: cpp
-    category: Security Biometrics
-    description: Contains the Windows Biometric Driver Interface sample and the Windows Biometric Service Adapter samples.
-    samplefwlink: http://go.microsoft.com/fwlink/p/?LinkId=620189
---->
-
 # Windows Biometric Driver Samples (UMDF Version 1)
 
 The Windows Biometric Driver Samples contain the Windows Biometric Driver Interface sample and the Windows Biometric Service Adapter samples.
 
-The following table describes the samples contained in this sample set:
+## Windows Biometric Driver Interface
 
-*Windows Biometric Driver Interface*
 This sample implements the Windows Biometric Driver Interface (WBDI). It contains skeleton code for handling the mandatory IOCTLs necessary to interoperate with the Windows Biometric Framework. A WBDI driver can be deployed in conjunction with an engine adapter DLL to allow a sensor to be exposed from the Windows Biometric Framework. This sample has been written to make use of the UMDF framework, which allows for ease of development and system stability.
 
-*Windows Biometric Service Adapters*
+## Windows Biometric Service Adapters
+
 These samples provide skeleton code that developers can use as a basis for writing Sensor, Engine, and Storage Adapters for the Windows Biometric Service. Note that the stubs in these samples are non-functional, and Adapter writers will need to follow the programming guidelines in the WinBio Service documentation in order produce a working Adapter component.
 
 ## Build the sample
